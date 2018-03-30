@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <Button contentDisplay="CENTER" layoutX="35.0" layoutY="41.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="30.0" prefWidth="75.0" text="1" textFill="#e01d1d" />
+      <Label fx:id="label1" alignment="CENTER" contentDisplay="CENTER" layoutX="35.0" layoutY="89.0" prefHeight="20.0" prefWidth="75.0" text="texto 1" textFill="#41873b" />
+      <Button layoutX="270.0" layoutY="43.0" mnemonicParsing="false" onAction="#handleButtonAction1" prefHeight="30.0" prefWidth="75.0" text="2" textFill="#ee0a0a" />
+      <Label fx:id="label2" alignment="CENTER" contentDisplay="CENTER" layoutX="270.0" layoutY="89.0" prefHeight="20.0" prefWidth="75.0" text="texto 2" textFill="#097907" />
+      <Button layoutX="35.0" layoutY="302.0" mnemonicParsing="false" onAction="#handleButtonAction2" prefHeight="30.0" prefWidth="75.0" text="3" textFill="#ee1212" />
+      <Label fx:id="label3" alignment="CENTER" contentDisplay="CENTER" layoutX="35.0" layoutY="350.0" prefHeight="20.0" prefWidth="75.0" text="texto 3" textFill="#23944a" />
+      <Button layoutX="270.0" layoutY="302.0" mnemonicParsing="false" onAction="#handleButtonAction3" prefHeight="30.0" prefWidth="75.0" text="4" textFill="#e40f0f" />
+      <Label fx:id="label4" alignment="CENTER" contentDisplay="CENTER" layoutX="270.0" layoutY="350.0" prefHeight="20.0" prefWidth="75.0" text="texto 4" textFill="#049713" />
+   </children>
+</AnchorPane>
